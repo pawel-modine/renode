@@ -5,3 +5,4 @@ numpy
 # Version at least 10.0.1 is recommended to avoid security vulnerabilities.
 # https://security.snyk.io/vuln/SNYK-PYTHON-PILLOW-5918878
 Pillow>=10.0.1
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
